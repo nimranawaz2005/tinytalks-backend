@@ -89,4 +89,4 @@ def get_recommendation(cause):
     pattern_info = CRY_PATTERNS.get(cause)
     if pattern_info:
         return pattern_info["advice_en"]
-    return "Observe baby closely for physical cues."  
+    return "Observe baby closely for physical cues." 
